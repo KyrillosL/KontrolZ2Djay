@@ -1,0 +1,1413 @@
+<?xml version="1.0"?>
+<ni-controller-midi-map version="1">
+  <midi-map type="TraktorKontrolZ2" name="Kontrol Z2 NI Template" port="internal">
+    <shiftmode>0</shiftmode>
+    <wrapmode>0</wrapmode>
+    <controls />
+    <pages>
+      <current_index>0</current_index>
+      <page name="Basic">
+        <wheel version="1" id="Browse">
+          <controller>24</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="BrowsePush">
+          <controller>107</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="DeckC">
+          <controller>3</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DeckD">
+          <controller>43</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DwAC">
+          <controller>0</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DwBD">
+          <controller>40</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="FX1AC">
+          <controller>17</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX1BD">
+          <controller>37</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX2AC">
+          <controller>18</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX2BD">
+          <controller>38</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="FaderAC">
+          <controller>20</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FaderBD">
+          <controller>39</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FilterAC">
+          <controller>16</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FilterBD">
+          <controller>36</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="FocusA">
+          <controller>6</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusB">
+          <controller>46</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusC">
+          <controller>5</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusD">
+          <controller>47</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="FxAC">
+          <controller>1</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FxBD">
+          <controller>41</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="GainAC">
+          <controller>12</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="GainBD">
+          <controller>32</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="HiAC">
+          <controller>13</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="HiBD">
+          <controller>33</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="LoadA">
+          <controller>25</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="LoadB">
+          <controller>26</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="LoopAC">
+          <controller>4</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <wheel version="1" id="LoopBD">
+          <controller>45</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="LoopPushAC">
+          <controller>105</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="LoopPushBD">
+          <controller>109</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="LowAC">
+          <controller>15</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="LowBD">
+          <controller>35</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="MacroAC">
+          <controller>11</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="MacroBD">
+          <controller>52</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="MidAC">
+          <controller>14</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="MidBD">
+          <controller>34</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Pad1AC">
+          <controller>7</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad1ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>7</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>7</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>7</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad1BD">
+          <controller>48</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad1BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>48</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>48</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>48</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad2AC">
+          <controller>8</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad2ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>8</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>8</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>8</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad2BD">
+          <controller>49</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad2BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>49</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>49</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>49</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad3AC">
+          <controller>9</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad3ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>9</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>9</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>9</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad3BD">
+          <controller>50</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad3BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>50</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>50</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>50</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad4AC">
+          <controller>10</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad4ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>10</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>10</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>10</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad4BD">
+          <controller>51</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad4BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>51</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="10" color-off-index="18" />
+          </display>
+          <controller>51</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>51</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Quantize">
+          <controller>23</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="RelA">
+          <controller>27</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="RelB">
+          <controller>28</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SelectAC">
+          <controller>2</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SelectBD">
+          <controller>42</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Snap">
+          <controller>21</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SyncA">
+          <controller>29</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SyncB">
+          <controller>30</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="XFader">
+          <controller>31</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+      </page>
+      <page name="Shift">
+        <wheel version="1" id="Browse">
+          <controller>76</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="BrowsePush">
+          <controller>108</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="DeckC">
+          <controller>56</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DeckD">
+          <controller>95</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DwAC">
+          <controller>53</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="DwBD">
+          <controller>92</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="FX1AC">
+          <controller>70</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX1BD">
+          <controller>89</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX2AC">
+          <controller>71</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FX2BD">
+          <controller>90</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="FaderAC">
+          <controller>72</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FaderBD">
+          <controller>91</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FilterAC">
+          <controller>69</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FilterBD">
+          <controller>88</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="FocusA">
+          <controller>59</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusB">
+          <controller>98</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusC">
+          <controller>58</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="FocusD">
+          <controller>99</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="FxAC">
+          <controller>54</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="FxBD">
+          <controller>93</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="GainAC">
+          <controller>65</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="GainBD">
+          <controller>84</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="HiAC">
+          <controller>66</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="HiBD">
+          <controller>85</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="LoadA">
+          <controller>77</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="LoadB">
+          <controller>78</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="LoopAC">
+          <controller>57</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <wheel version="1" id="LoopBD">
+          <controller>97</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="LoopPushAC">
+          <controller>106</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="LoopPushBD">
+          <controller>110</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="LowAC">
+          <controller>68</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="LowBD">
+          <controller>87</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="MacroAC">
+          <controller>64</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="MacroBD">
+          <controller>104</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="MidAC">
+          <controller>67</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="MidBD">
+          <controller>86</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Pad1AC">
+          <controller>60</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad1ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>60</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>60</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>60</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad1BD">
+          <controller>100</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad1BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>100</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>100</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad1BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>100</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad2AC">
+          <controller>61</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad2ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>61</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>61</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>61</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad2BD">
+          <controller>101</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad2BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>101</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>101</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad2BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>101</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad3AC">
+          <controller>62</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad3ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>62</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>62</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>62</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad3BD">
+          <controller>102</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad3BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>102</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>102</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad3BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>102</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad4AC">
+          <controller>63</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad4ACB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>63</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4ACH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>63</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4ACS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>63</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Pad4BD">
+          <controller>103</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <led version="1" id="Pad4BDB">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>103</controller>
+          <channel>2</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4BDH">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="0" color-off-index="18" />
+          </display>
+          <controller>103</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <led version="1" id="Pad4BDS">
+          <display type="0">
+            <unit color-type="1" color-mode="1" color-on-index="2" color-off-index="1" />
+          </display>
+          <controller>103</controller>
+          <channel>1</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </led>
+        <button version="1" id="Quantize">
+          <controller>75</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="RelA">
+          <controller>79</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="RelB">
+          <controller>80</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SelectAC">
+          <controller>55</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SelectBD">
+          <controller>94</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Snap">
+          <controller>73</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SyncA">
+          <controller>81</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="SyncB">
+          <controller>82</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="XFader">
+          <controller>83</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+      </page>
+    </pages>
+  </midi-map>
+</ni-controller-midi-map>
